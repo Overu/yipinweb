@@ -1,2 +1,17 @@
-/.gwt
-/extras
+# Created by Eclipse.
+.project
+.classpath
+.settings
+
+# Created by OS.
+.DS_Store
+
+# Maven build output.
+target/
+
+# Ant build output.
+build/
+
+# Eclipse build output.
+bin/
+.gwt/
