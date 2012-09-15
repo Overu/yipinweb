@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="YipinWeb">
+  <inherits name="com.yipin.web.bootstrap.Bootstrap"/>
+  
+  <extend-configuration-property name="gin.module"
+    value="com.yipin.web.war.client.YipinWebClientModule" />
+  <!-- <extend-configuration-property name="gin.module"
+    value="com.goodow.web.reader.client.ReaderClientModule" /> -->
+
+  <source path='client'/>
+  <source path='shared'/>
+</module>

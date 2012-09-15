@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="bootstrap">
+  <inherits name="com.google.gwt.user.User"/>
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <inherits name='com.google.gwt.inject.Inject'/>
+  
+  <entry-point class="com.yipin.web.bootstrap.client.BootstrapEntryPoint" />
+  
+  <define-configuration-property name="gin.module" is-multi-valued="true" />
+
+  <source path='client'/>
+  <source path='shared'/>
+</module>
