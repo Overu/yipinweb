@@ -11,9 +11,6 @@ public class BootstrapServletModule extends ServletModule {
 
   @Override
   protected void configureServlets() {
-    install(new JpaPersistModule("myFirstJpaUnit"));
-
-    filter("/*").through(PersistFilter.class);
     loadFromClasspath();
   }
 
