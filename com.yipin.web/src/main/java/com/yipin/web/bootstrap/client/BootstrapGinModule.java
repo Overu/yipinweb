@@ -9,7 +9,6 @@ public class BootstrapGinModule extends AbstractGinModule {
 
   @Override
   protected void configure() {
-    // install(new com.yipin.web.shared.YipinWebGinModule());
     bind(EventBus.class).to(SimpleEventBus.class).in(Singleton.class);
   }
 

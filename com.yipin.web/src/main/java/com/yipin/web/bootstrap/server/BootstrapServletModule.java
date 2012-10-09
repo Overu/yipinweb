@@ -1,7 +1,5 @@
 package com.yipin.web.bootstrap.server;
 
-import com.google.inject.persist.PersistFilter;
-import com.google.inject.persist.jpa.JpaPersistModule;
 import com.google.inject.servlet.ServletModule;
 
 import java.util.Iterator;
